@@ -1,0 +1,70 @@
+@media only screen and (min-width: 70em) {
+    html {
+      font-size: 62.5%;
+    }
+  
+    header {
+      font-size: var(--fluid-text-3);
+    }
+  
+    nav,
+    main {
+      max-width: 180rem;
+      margin: 0 auto;
+    }
+  
+    nav {
+      height: fit-content;
+    }
+  
+    nav ul {
+      display: flex;
+    }
+  
+    nav ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+  
+    figcaption {
+      font-size: 2.5rem;
+    }
+  
+    main h2 {
+      text-align: center;
+    }
+  
+    .img-box {
+      width: 20%;
+    }
+  
+    .course-work-list {
+      grid-column: 1/ 3;
+      width: 100%;
+      
+    }
+    
+    .state-info-box {
+      grid-column: 3 / 4;
+    
+    }
+    .state-info-box img {
+      width: 100%;
+    }
+    #menu {
+      display: none;
+    }
+    
+    .navigation li {
+      display: block;
+    }
+  
+    #courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+  }

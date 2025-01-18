@@ -1,0 +1,76 @@
+{
+    "data": [
+      {
+        "name": "Kieth & Lance",
+        "address": "123 Main Street, Lagos, Nig",
+        "phone": "+234 (11) 123-4567",
+        "website": "https://www.kieth.com",
+        "image": "images/kieth and lance.webp",
+        "membershipLevel": "images/bronze.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "SAFYIREAL ESTATE.",
+        "address": "45 Balogun Street, Lagos",
+        "phone": "+234 (21) 234-5678",
+        "website": "https://www.safyireal.com",
+        "image": "images/safyi.webp",
+        "membershipLevel": "images/gold.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "SPACE DISTORTION",
+        "address": "78 Cadestral Oak Street, Village, Utako",
+        "phone": "+234 (31) 345-6789",
+        "website": "https://www.spacedistortion.co.za",
+        "image": "images/space.webp",
+        "membershipLevel": "images/gold.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "RUBY",
+        "address": "Utako district, FCT Abj",
+        "phone": "+224 (41) 456-780",
+        "website": "https://www.ruby.co.ng",
+        "image": "images/ruby.webp",
+        "membershipLevel": "images/1stnp.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "NEVERLINE",
+        "address": "202 idu Industrial park, Idu, Abuja",
+        "phone": "+234 (51) 567-8901",
+        "website": "https://www.neverline.co.ng",
+        "image": "images/neverline.webp",
+        "membershipLevel": "images/1stnp.png",
+        "textColor": "#333333" 
+      },
+      {
+        "name": "POPWIRE",
+        "address": "303 Birch Street, Central business District, Abj",
+        "phone": "+234 (61) 678-9012",
+        "website": "https://www.popwire.co.ng",
+        "image": "images/popwire.png",
+        "membershipLevel": "images/silver.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "PENNY VINTAGE",
+        "address": "Opposite Emidmond Plaza FCT, ABj",
+        "phone": "+234 (90) 234-5676",
+        "website": "https://www.pennyvintage.co.ng",
+        "image": "images/pennyvintage.webp",
+        "membershipLevel": "images/silver.png",
+        "textColor": "#333333"  
+      },
+      {
+        "name": "Audrey & CO.",
+        "address": "Fine trust Academy Jikwoyi, Abj",
+        "phone": "+234 (89)2356-678",
+        "website": "https://audrey.co.ng",
+        "image": "images/audrey.webp",
+        "membershipLevel": "images/1stnp.png",
+        "textColor": "#333333"  
+      }
+    ]
+  }

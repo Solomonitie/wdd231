@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you Page</title>
+    <meta name="author" content="Emmanuel Okoye">
+    <meta name="description" content="The Suleja Chamber of Commerce Join Page">
+    <meta property="og:title" content="Suleja Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emmanuel2011-program.github.io/wdd231/chamber">
+    <meta property="og:image" content="https://github.com/emmanuel2011-program/wdd231/blob/main/chamber/images/hero-image.jpg">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <body class="homepage-body">
+        <div id="banner" class="banner" role="alert">
+            <p>Attend the Suleja Chamber of Commerce meet and greet 🌲 on Tuesday at 6:00 p.m.</p>
+            <button id="closeBanner" class="close-button" aria-label="Close">×</button>
+        </div>
+    
+        <header>
+            <button class="menu-btn" aria-label="Toggle menu button">
+                <svg>
+                    <use xlink:href="images"></use>
+                </svg>
+            </button>
+    
+            <div class="logo-box">
+                <a href="index.html">
+                    <img src="images/suleja-logo.png" alt="Suleja Business Chamber logo" class="logo" width="323" height="130">
+                </a>
+            </div>
+    
+            <nav class="header-nav">
+                <ul class="nav-list">
+                  <li><a href="index.html" class="nav-links">
+                    <svg>
+                      <use xlink:href="images/sprite.svg#icon-home"></use>
+                    </svg> HOME</a>
+                  </li>
+                  <li><a href="directory.html" class="nav-links">
+                    <svg>
+                      <use xlink:href="images/sprite.svg#icon-folder"></use>
+                    </svg> DIRECTORY</a>
+                  </li>
+                  
+                  <li><a href="join.html" class="nav-links">
+                    <svg>
+                      <use xlink:href="images/sprite.svg#icon-folder"></use>
+                    </svg> JOIN</a>
+                  </li>
+                  <li><a href="discover.html" class="nav-links">
+                    <svg>
+                      <use xlink:href="images/sprite.svg#icon-folder"></use>
+                    </svg> DiSCOVER</a>
+                  </li>
+                </ul>
+              </nav>
+    
+            <div class="header-box">
+                <div class="header-intro">
+                    <div>
+                        <h1>Welcome to Suleja Chamber of Commerce</h1>
+                        <span class="motto-text">Empowering Business, Building Community</span>
+                    </div>
+    
+                    <div>
+                        <p>Join us in the journey to empower businesses, uplift communities, and create a brighter tomorrow. We
+                            are dedicated to fostering collaboration, driving economic growth, building lasting connections.</p>
+                    </div>
+    
+                    <div class="cta-box">
+                        <a href="join.html" role="button" class="btn-join">JOIN US</a>
+                        <a href="discover.html" role="button" class="btn-explore">EXPLORE</a>
+                    </div>
+                </div>
+    
+                <div class="socials-box">
+                    <a href="https://www.instagram.com/emmanonsookoye/" target="_blank" class="social-links"
+                        aria-label="Go to Emma's Instagram page">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
+                        </svg>
+                    </a>
+    
+                    <a href="https://www.linkedin.com/in/emmanuel-okoye-212879296/" target="_blank" class="social-links"
+                        aria-label="Go to Emma's LinkedIn account">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use>
+                        </svg>
+                    </a>
+    
+                    <a href="https://web.facebook.com/emma.okoye.967/" target="_blank" class="social-links"
+                        aria-label="Go to Emma's Facebook page">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+    
+                    <a href="https://www.youtube.com/" target="_blank" class="social-links"
+                        aria-label="Go to Youtube.com homepage">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+    <h1>Thank You for Your Submission!</h1>
+
+    <p class="thank-you-message">We appreciate your interest. Below are the details you submitted:</p>
+
+    <div class="summary-box">
+        <p><strong>First Name:</strong> <span id="first-name"></span></p>
+        <p><strong>Last Name:</strong> <span id="last-name"></span></p>
+        <p><strong>Email Address:</strong> <span id="email"></span></p>
+        <p><strong>Phone Number:</strong> <span id="phone"></span></p>
+        <p><strong>Organization Name:</strong> <span id="org-name"></span></p>
+        <p><strong>Membership Level:</strong> <span id="membership"></span></p>
+        <p><strong>Date submitted:</strong> <span id="timestamp"></span></p>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="scripts/thankyou.js"></script>
+    
+ </body>
+</html>
